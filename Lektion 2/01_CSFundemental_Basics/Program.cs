@@ -166,3 +166,56 @@ Console.ReadKey();
 int.Parse(placeholder);
 
 #endregion
+
+#region LISTS and ARRAYS
+
+
+/*
+ 
+    LIST
+    -------------------------------------------------------------
+    List<int> numbers           List<int> numbers = new List<int>();
+    List<string> names          List<int> numbers = new List<int>();
+    List<long>  timestamps      List<int> numbers = new List<int>();     
+    List<dynamic> random        List<long> numbers = new();  
+ 
+ 
+ 
+ 
+ 
+ */
+
+List<int> numbers = new List<int>();
+List<_01_CSFundamentals_Basic.customer> customers = mew();
+
+
+
+
+#endregion
+
+#region LOOPS
+
+/* 
+ 
+    FOR LOOP
+    -------------------------------------------------------
+    for(int i=0; i < 10; i++) {}
+
+
+    
+    FOREACH LOOP
+    -------------------------------------------------------
+    FOREACH(var item in items { i++; }
+
+
+
+    Varning! passa så du inte gör en evighetsloop!
+    WHILE LOOP - lOOPA SÅ LÄNGE ETT VISST TILLSTÅND GÄLLER ELLER INTE UPPFYLLS
+    -------------------------------------------------------
+    
+ 
+ 
+ */
+
+
+#endregion
