@@ -1,0 +1,15 @@
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\bin\Debug\net6.0\01_CSFundemental_Basics.exe
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\bin\Debug\net6.0\01_CSFundemental_Basics.deps.json
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\bin\Debug\net6.0\01_CSFundemental_Basics.runtimeconfig.json
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\bin\Debug\net6.0\01_CSFundemental_Basics.dll
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\bin\Debug\net6.0\ref\01_CSFundemental_Basics.dll
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\bin\Debug\net6.0\01_CSFundemental_Basics.pdb
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\obj\Debug\net6.0\01_CSFundemental_Basics.csproj.AssemblyReference.cache
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\obj\Debug\net6.0\01_CSFundemental_Basics.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\obj\Debug\net6.0\01_CSFundemental_Basics.AssemblyInfoInputs.cache
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\obj\Debug\net6.0\01_CSFundemental_Basics.AssemblyInfo.cs
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\obj\Debug\net6.0\01_CSFundemental_Basics.csproj.CoreCompileInputs.cache
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\obj\Debug\net6.0\01_CSFundemental_Basics.dll
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\obj\Debug\net6.0\ref\01_CSFundemental_Basics.dll
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\obj\Debug\net6.0\01_CSFundemental_Basics.pdb
+D:\Lexicon\NETFUND21\cs\Lektion 2\01_CSFundemental_Basics\obj\Debug\net6.0\01_CSFundemental_Basics.genruntimeconfig.cache
