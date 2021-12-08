@@ -1,0 +1,15 @@
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\bin\Debug\net6.0\Övningsuppgift 2.exe
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\bin\Debug\net6.0\Övningsuppgift 2.deps.json
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\bin\Debug\net6.0\Övningsuppgift 2.runtimeconfig.json
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\bin\Debug\net6.0\Övningsuppgift 2.dll
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\bin\Debug\net6.0\ref\Övningsuppgift 2.dll
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\bin\Debug\net6.0\Övningsuppgift 2.pdb
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\obj\Debug\net6.0\Övningsuppgift 2.csproj.AssemblyReference.cache
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\obj\Debug\net6.0\Övningsuppgift 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\obj\Debug\net6.0\Övningsuppgift 2.AssemblyInfoInputs.cache
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\obj\Debug\net6.0\Övningsuppgift 2.AssemblyInfo.cs
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\obj\Debug\net6.0\Övningsuppgift 2.csproj.CoreCompileInputs.cache
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\obj\Debug\net6.0\Övningsuppgift 2.dll
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\obj\Debug\net6.0\ref\Övningsuppgift 2.dll
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\obj\Debug\net6.0\Övningsuppgift 2.pdb
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgift 2\obj\Debug\net6.0\Övningsuppgift 2.genruntimeconfig.cache
