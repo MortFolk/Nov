@@ -95,9 +95,9 @@ if (menuOption == "Add")
     string Email = Console.ReadLine();
     Console.Write("User: " + FirstName + " " + LastName + "Email: " + Email + " Has been added!");
 
-    Customers.Add(Name1, LastName, Email1);
+    Customers.Add($"{FirstName}, {LastName}, {Email}");
 
-    Console.Write("Type what you want to do: ")
+    Console.Write("Type what you want to do: ");
         menuOption = Console.ReadLine();
 
     //customer.Add(new Fundamentals_2.Customers { Name1 = $"{ Name1 }", Email1 = $"{ Email1 }" });
