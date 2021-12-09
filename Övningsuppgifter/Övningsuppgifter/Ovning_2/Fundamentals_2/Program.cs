@@ -74,11 +74,10 @@ if (menuOption == "View")
 }
 */
 var Customers = new List<string>();
-{
-
-}
 
 
+foreach(var Customer in Customers) 
+    Console.WriteLine(Customer);
 #endregion
 
 
