@@ -30,28 +30,85 @@ See persons: See
 #region START PROGRAM
 
 //Welcomes on start of program
-{
+
     Console.WriteLine("Main menu");
     Console.WriteLine("_____________________");
     Console.WriteLine("Welcome admin\n");
     Console.ReadKey();
-    Console.WriteLine("Welcome admin\n");
-
+ 
 
     Console.WriteLine("\nView List: View");
     Console.WriteLine("Add Person: Add");
     Console.WriteLine("Remove Person: Remove");
+    Console.Write("\nType what you want to do: ");
 
-
-    Console.ReadKey();
-}
 #endregion
 
-Console.ReadLine();
+#region List!
 
 
-string AddPerson = "Add";
+
+
+#endregion
+
+
+
+#region VIEW List
+string menuOption = Console.ReadLine();
+
+if (menuOption == "View")
+
+
+#endregion
+
+#region ADD/add person to list
+
+if (menuOption == "Add")
+{
+    Console.Write("Type the persons name: ");
+    string Name1 = Console.ReadLine();
+    Console.Write("Type the persons age: ");
+    int Age1 = int.Parse(Console.ReadLine());
+    Console.WriteLine(Name1 + Age1);
+}
+
+if (menuOption == "add")
+{
+    Console.Write("Type the persons name: ");
+    string Name1 = Console.ReadLine();
+    Console.Write("Type the persons age: ");
+    int Age1 = int.Parse(Console.ReadLine());
+    Console.WriteLine(Name1 + Age1);
+}
+
+#endregion 
+
+#region Remove person from list
+
+
+
+#endregion
+
+//else
+//{
+//}
+
+
+
+
+
+
+
+
+/*
+ string AddPerson = "";
 string RemovePerson = "Remove";
 string ViewList = "View";
+ 
+ */
+
+
+
+
 
 
