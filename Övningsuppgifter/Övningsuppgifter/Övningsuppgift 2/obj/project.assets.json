@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Lexicon\\NETFUND21\\cs\\Övningsuppgifter\\Övningsuppgifter\\Övningsuppgift 2\\Övningsuppgift 2.csproj",
-      "projectName": "Övningsuppgift 2",
-      "projectPath": "D:\\Lexicon\\NETFUND21\\cs\\Övningsuppgifter\\Övningsuppgifter\\Övningsuppgift 2\\Övningsuppgift 2.csproj",
+      "projectUniqueName": "D:\\Lexicon\\NETFUND21\\cs\\Övningsuppgifter\\Övningsuppgifter\\Övningsuppgift 2\\Ovning_1.csproj",
+      "projectName": "Ovning_1",
+      "projectPath": "D:\\Lexicon\\NETFUND21\\cs\\Övningsuppgifter\\Övningsuppgifter\\Övningsuppgift 2\\Ovning_1.csproj",
       "packagesPath": "C:\\Users\\Morten\\.nuget\\packages\\",
       "outputPath": "D:\\Lexicon\\NETFUND21\\cs\\Övningsuppgifter\\Övningsuppgifter\\Övningsuppgift 2\\obj\\",
       "projectStyle": "PackageReference",

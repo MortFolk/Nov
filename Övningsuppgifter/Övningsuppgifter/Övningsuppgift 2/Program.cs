@@ -21,7 +21,7 @@ Remove person: *Remove*
 "Are you sure?"
     *Y/N*
 
-See persons: See
+View persons: View
     *shows list*
   */
 
@@ -30,7 +30,7 @@ See persons: See
 #region START PROGRAM
 
 //Welcomes on start of program
-
+using Ovning_1;
     Console.WriteLine("Main menu");
     Console.WriteLine("_____________________");
     Console.WriteLine("Welcome admin\n");
@@ -40,6 +40,7 @@ See persons: See
     Console.WriteLine("\nView List: View");
     Console.WriteLine("Add Person: Add");
     Console.WriteLine("Remove Person: Remove");
+    Console.WriteLine("Save List: Save");
     Console.Write("\nType what you want to do: ");
 
 #endregion
@@ -48,38 +49,45 @@ See persons: See
 
 
 
+//List<Customer> customer = new();
+
+
+
+
+    //"menuOption" determines where you go, i guess...
+    string menuOption = Console.ReadLine();
+
+    if (menuOption == "View")
+    Console.WriteLine("ayoooooooo!!!!!!!!!!!!!!");   
+    Console.ReadKey();
 
 #endregion
 
 
-
-#region VIEW List
-string menuOption = Console.ReadLine();
-
-if (menuOption == "View")
-
-
-#endregion
 
 #region ADD/add person to list
 
-if (menuOption == "Add")
+    if (menuOption == "Add")
 {
+    Console.Write("Type the persons full name: ");
+    string Name1 = Console.ReadLine();  //Can probably change this?
+    Console.Write("Type the persons age: ");
+    int Age1 = int.Parse(Console.ReadLine());
+    Console.Write("Type the persons Email: ");
+    string Email1 = Console.ReadLine();
+    Console.Write(Name1 + " " + Age1 + " " + Email1);
+}
+    //Same as above just lowercase "add"
+    if (menuOption == "add")
+    {
     Console.Write("Type the persons name: ");
     string Name1 = Console.ReadLine();
     Console.Write("Type the persons age: ");
     int Age1 = int.Parse(Console.ReadLine());
-    Console.WriteLine(Name1 + Age1);
-}
-
-if (menuOption == "add")
-{
-    Console.Write("Type the persons name: ");
-    string Name1 = Console.ReadLine();
-    Console.Write("Type the persons age: ");
-    int Age1 = int.Parse(Console.ReadLine());
-    Console.WriteLine(Name1 + Age1);
-}
+    Console.Write("Type the persons Email: ");
+    string Email1 = Console.ReadLine();
+    Console.Write(Name1 + " " + Age1 + " " + Email1);
+    }
 
 #endregion 
 
