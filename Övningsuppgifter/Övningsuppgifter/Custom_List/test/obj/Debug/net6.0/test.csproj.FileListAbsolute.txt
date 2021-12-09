@@ -1,0 +1,14 @@
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\bin\Debug\net6.0\test.exe
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\bin\Debug\net6.0\test.deps.json
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\bin\Debug\net6.0\test.runtimeconfig.json
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\bin\Debug\net6.0\test.dll
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\bin\Debug\net6.0\ref\test.dll
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\bin\Debug\net6.0\test.pdb
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\obj\Debug\net6.0\test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\obj\Debug\net6.0\test.AssemblyInfoInputs.cache
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\obj\Debug\net6.0\test.AssemblyInfo.cs
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\obj\Debug\net6.0\test.csproj.CoreCompileInputs.cache
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\obj\Debug\net6.0\test.dll
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\obj\Debug\net6.0\ref\test.dll
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\obj\Debug\net6.0\test.pdb
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Custom_List\test\obj\Debug\net6.0\test.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\obj\Debug\net6.0\Fundamentals_2.csproj.AssemblyReference.cache
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\obj\Debug\net6.0\Fundamentals_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\obj\Debug\net6.0\Fundamentals_2.AssemblyInfoInputs.cache
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\obj\Debug\net6.0\Fundamentals_2.AssemblyInfo.cs
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\obj\Debug\net6.0\Fundamentals_2.csproj.CoreCompileInputs.cache
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\bin\Debug\net6.0\Fundamentals_2.exe
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\bin\Debug\net6.0\Fundamentals_2.deps.json
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\bin\Debug\net6.0\Fundamentals_2.runtimeconfig.json
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\bin\Debug\net6.0\Fundamentals_2.dll
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\bin\Debug\net6.0\ref\Fundamentals_2.dll
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\bin\Debug\net6.0\Fundamentals_2.pdb
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\obj\Debug\net6.0\Fundamentals_2.dll
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\obj\Debug\net6.0\ref\Fundamentals_2.dll
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\obj\Debug\net6.0\Fundamentals_2.pdb
+D:\Lexicon\NETFUND21\cs\Övningsuppgifter\Övningsuppgifter\Ovning_2\Fundamentals_2\obj\Debug\net6.0\Fundamentals_2.genruntimeconfig.cache
