@@ -75,9 +75,10 @@ if (menuOption == "View")
 */
 var Customers = new List<string>();
 
-
+/*
 foreach(var Customer in Customers) 
-    Console.WriteLine(Customer);
+  Console.WriteLine(Customer);
+*/
 #endregion
 
 
@@ -94,17 +95,15 @@ if (menuOption == "Add")
     string Email = Console.ReadLine();
     Console.Write("User: " + FirstName + " " + LastName + "Email: " + Email + " Has been added!");
 
-    Customers.Add($"{FirstName}, {LastName}, {Email}");
+    //Customers.Add($"{FirstName}, {LastName}, {Email}");
 
     Console.Write("Type what you want to do: ");
-        menuOption = Console.ReadLine();
+          
 
     //customer.Add(new Fundamentals_2.Customers { Name1 = $"{ Name1 }", Email1 = $"{ Email1 }" });
-} else { 
-    
-    menuOption = Console.ReadLine();
+} 
 
-}
+
 
 //Same as above just lowercase "add"
 if (menuOption == "add")
