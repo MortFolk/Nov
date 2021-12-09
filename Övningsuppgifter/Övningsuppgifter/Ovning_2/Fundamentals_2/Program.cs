@@ -51,6 +51,7 @@ string menuOption = Console.ReadLine();
 #endregion
 
 #region List!
+/*
 //tried to make a custom List
 //using Fundamentals_2;
 
@@ -62,8 +63,8 @@ foreach (Fundamentals_2.Customers customers in customer)
     Console.WriteLine(customer);
  
 
-//var Customer = new List<string>();
-/*if (menuOption == "View")
+var Customer = new List<string>();
+if (menuOption == "View")
 { 
     foreach(var Customer in Customer)
         Console.WriteLine("")
@@ -72,6 +73,12 @@ foreach (Fundamentals_2.Customers customers in customer)
     Console.ReadKey();
 }
 */
+var Customers = new List<string>();
+{
+
+}
+
+
 #endregion
 
 
@@ -80,15 +87,24 @@ foreach (Fundamentals_2.Customers customers in customer)
 
 if (menuOption == "Add")
 {
-    Console.Write("Type the persons full name: ");
-    string Name1 = Console.ReadLine();  //Can probably change this?
-    Console.Write("Type the persons age: ");
-    int Age1 = int.Parse(Console.ReadLine());
+    Console.Write("Type the persons first name: ");
+    string FirstName = Console.ReadLine();  //Can probably change this?
+    Console.Write("Type the persons last name: ");
+    string LastName = (Console.ReadLine());
     Console.Write("Type the persons Email: ");
-    string Email1 = Console.ReadLine();
-    Console.Write(Name1 + " " + Email1);
+    string Email = Console.ReadLine();
+    Console.Write("User: " + FirstName + " " + LastName + "Email: " + Email + " Has been added!");
 
-    customer.Add(new Fundamentals_2.Customers { Name1 = $"{ Name1 }", Email1 = $"{ Email1 }" });
+    Customers.Add(Name1, LastName, Email1);
+
+    Console.Write("Type what you want to do: ")
+        menuOption = Console.ReadLine();
+
+    //customer.Add(new Fundamentals_2.Customers { Name1 = $"{ Name1 }", Email1 = $"{ Email1 }" });
+} else { 
+    
+    menuOption = Console.ReadLine();
+
 }
 
 //Same as above just lowercase "add"
