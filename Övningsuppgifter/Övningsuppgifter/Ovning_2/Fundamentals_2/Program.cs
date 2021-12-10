@@ -31,7 +31,7 @@ View persons: View
 
 //Welcomes on start of program
 
-//using Fundamentals_2;
+using Fundamentals_2;
 
 Console.WriteLine("Main menu");
 Console.WriteLine("_____________________");
@@ -41,7 +41,7 @@ Console.ReadKey();
 Console.WriteLine("\nView List: View");
 Console.WriteLine("Add Person: Add");
 Console.WriteLine("Remove Person: Remove");
-Console.WriteLine("Save List: Save");
+Console.WriteLine("Save List: Save list");
 Console.WriteLine("Get coupon code: Code");
 Console.Write("\nType what you want to do: ");
 
@@ -50,42 +50,39 @@ string menuOption = Console.ReadLine();
 
 #endregion
 
-#region List!
-/*
+#region List thingy!
+
 //tried to make a custom List
 //using Fundamentals_2;
 
-//Fundamentals_2 är sökvägen där Customers filen ligger
-//"customer" är namnet på listan nät den ska refereras
-List<Fundamentals_2.Customers> customer = new();
 
-foreach (Fundamentals_2.Customers customers in customer)
-    Console.WriteLine(customer);
- 
+List<User> Users = new List<User>();
+Users.Add(new User("Morten", "morten@mail.com"));
 
-var Customer = new List<string>();
-if (menuOption == "View")
-{ 
-    foreach(var Customer in Customer)
-        Console.WriteLine("")
-
-    Console.WriteLine("ayoooooooo!!!!!!!!!!!!!!");
-    Console.ReadKey();
-}
-*/
-var Customers = new List<string>();
-
-/*
-foreach(var Customer in Customers) 
-  Console.WriteLine(Customer);
-*/
 #endregion
-
-
 
 #region ADD/add person to list
 
 if (menuOption == "Add")
+{
+    Console.Write("Type the persons full name: ");
+    string FullName = Console.ReadLine();  //Can probably change this?
+    //Console.Write("Type the persons last name: ");
+    //string LastName = (Console.ReadLine());
+    Console.Write("Type the persons Email: ");
+    string Email = Console.ReadLine();
+    //Console.WriteLine("User: " + FullName + /*" " + LastName + */" Email: " + Email + " has been added!");
+
+    Users.Add(new User($"{FullName}, {Email}"));
+
+    Console.Write("\nType what you want to do: ");
+
+    Console.ReadKey();
+
+}
+
+//Same as above just lowercase "add"
+if (menuOption == "add")
 {
     Console.Write("Type the persons first name: ");
     string FirstName = Console.ReadLine();  //Can probably change this?
@@ -93,49 +90,42 @@ if (menuOption == "Add")
     string LastName = (Console.ReadLine());
     Console.Write("Type the persons Email: ");
     string Email = Console.ReadLine();
-    Console.Write("User: " + FirstName + " " + LastName + "Email: " + Email + " Has been added!");
+    Console.WriteLine("User: " + FirstName + " " + LastName + " Email: " + Email + " Has been added!");
 
-    //Customers.Add($"{FirstName}, {LastName}, {Email}");
+    //Name.Add($"{FirstName}{LastName}{Email}");
 
-    Console.Write("Type what you want to do: ");
-          
+    Console.Write("\nType what you want to do: ");
 
-    //customer.Add(new Fundamentals_2.Customers { Name1 = $"{ Name1 }", Email1 = $"{ Email1 }" });
-} 
-
-
-
-//Same as above just lowercase "add"
-if (menuOption == "add")
-{
-    Console.Write("Type the persons name: ");
-    string Name1 = Console.ReadLine();
-    Console.Write("Type the persons age: ");
-    int Age1 = int.Parse(Console.ReadLine());
-    Console.Write("Type the persons Email: ");
-    string Email1 = Console.ReadLine();
-    Console.Write(Name1 + " " + Age1 + " " + Email1);
+    Console.ReadKey();
 }
 
 #endregion 
 
-#region Remove person from list
+#region View
+if (menuOption == "View")
+{
+    foreach(var User in Users)
+    {   
+        Console.WriteLine($"{User._FullName}, {User._Email} ");
+        Console.WriteLine("Name ");
+        Console.WriteLine("Name ");
+    }
+    Console.ReadKey();
+}
+#endregion
+
+#region Remove/remove person from list
 
 
 
 #endregion
 
-//else
-//{
-//}
+#region Coupon Code!
 
+#endregion
 
-/*
- string AddPerson = "";
-string RemovePerson = "Remove";
-string ViewList = "View";
- 
- */
+#region Save list!
 
 
 
+#endregion
