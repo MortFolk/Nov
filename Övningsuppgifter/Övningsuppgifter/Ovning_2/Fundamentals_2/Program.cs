@@ -27,7 +27,7 @@ View persons: View
 
 #endregion
 
-#region START PROGRAM
+//START PROGRAM
 
 //Welcomes on start of program
 
@@ -48,81 +48,88 @@ Console.Write("\nType what you want to do: ");
 //"menuOption" determines where you go, i guess...
 string menuOption = Console.ReadLine();
 
-#endregion
-
-#region List thingy!
+//List thingy!
 
 //tried to make a custom List
-//using Fundamentals_2;
-
-
 List<User> Users = new List<User>();
 Users.Add(new User("Morten", "morten@mail.com"));
 
-#endregion
 
-#region ADD/add person to list
+//ADD
 
 if (menuOption == "Add")
 {
     Console.Write("Type the persons full name: ");
     string FullName = Console.ReadLine();  //Can probably change this?
-    //Console.Write("Type the persons last name: ");
-    //string LastName = (Console.ReadLine());
+    
     Console.Write("Type the persons Email: ");
     string Email = Console.ReadLine();
-    //Console.WriteLine("User: " + FullName + /*" " + LastName + */" Email: " + Email + " has been added!");
+    Console.WriteLine("User: " + FullName + " Email: " + Email + " has been added!");
 
-    Users.Add(new User($"{FullName}, {Email}"));
+    Users.Add(new User("Fullname: " + FullName, "Email: " + Email));
 
     Console.Write("\nType what you want to do: ");
-
-    Console.ReadKey();
+    menuOption = Console.ReadLine();
 
 }
-
 //Same as above just lowercase "add"
 if (menuOption == "add")
 {
-    Console.Write("Type the persons first name: ");
-    string FirstName = Console.ReadLine();  //Can probably change this?
-    Console.Write("Type the persons last name: ");
-    string LastName = (Console.ReadLine());
+    Console.Write("Type the persons full name: ");
+    string FullName = Console.ReadLine();  //Can probably change this?
+
     Console.Write("Type the persons Email: ");
     string Email = Console.ReadLine();
-    Console.WriteLine("User: " + FirstName + " " + LastName + " Email: " + Email + " Has been added!");
+    Console.WriteLine("User: " + FullName + " Email: " + Email + " has been added!");
 
-    //Name.Add($"{FirstName}{LastName}{Email}");
+    Users.Add(new User("Fullname: " + FullName, "Email: " + Email));
 
     Console.Write("\nType what you want to do: ");
 
-    Console.ReadKey();
+    menuOption = Console.ReadLine();
 }
+    
+   
 
-#endregion 
+//VIEW
 
-#region View
 if (menuOption == "View")
 {
     foreach(var User in Users)
     {   
         Console.WriteLine($"{User._FullName}, {User._Email} ");
-        Console.WriteLine("Name ");
-        Console.WriteLine("Name ");
+        Console.WriteLine($"{User._FullName}, {User._Email} ");
+        Console.WriteLine($"{User._FullName}, {User._Email} ");
     }
-    Console.ReadKey();
+   
+    Console.Write("\nType what you want to do: ");
+    menuOption = Console.ReadLine();
 }
-#endregion
-
-#region Remove/remove person from list
 
 
+//REMOVE
+/*
+if (menuOption == "Remove")
+{
+    Console.Write("Type the persons Email: ");
+    Email = Console.ReadLine();
+}
+  
+Users.Remove(new User("Fullname: " + FullName, "Email: " + Email));
+ */
 
-#endregion
 
-#region Coupon Code!
+//Coupon Code!
 
-#endregion
+if (menuOption == "Code")
+{
+    Guid code = Guid.NewGuid();
+    Console.WriteLine(code);
+
+    Console.Write("\nType what you want to do: ");
+    Console.ReadLine(); 
+}
+
 
 #region Save list!
 
