@@ -8,14 +8,25 @@ namespace Fundamentals_2
 {
     public class User
     {
-        public string _FullName;
-        public string _Email;
-
-        public User(string Name, string mail)
+        public User()
         {
-            _FullName = Name;
-            _Email = mail;
+         
         }
+        public User( string firstName, string email, string lastName)
+        {
+            this.id = id;
+            FirstName = firstName;
+            Email = email;
+            LastName = lastName;
+        }
+
+        public Guid id { get; set; } = Guid.NewGuid();
+        public string FirstName { get; set; } = "";
+        public string Email { get; set; } = "";
+        public string LastName { get; set; } = "";
+
+        public string FullName => $"{FirstName} {LastName}";
+
      
 
     }

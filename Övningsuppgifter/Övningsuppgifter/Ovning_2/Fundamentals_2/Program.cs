@@ -52,19 +52,21 @@ string menuOption = Console.ReadLine();
 
 //tried to make a custom List
 List<User> Users = new List<User>();
-Users.Add(new User("Morten", "morten@mail.com"));
+{ }
+//Users.Add(new User("Morten", ""));
 
 
 //ADD
 
 if (menuOption == "Add")
 {
-    Console.Write("Type the persons full name: ");
-    string FullName = Console.ReadLine();  //Can probably change this?
-    
+    Console.Write("Type the persons first name: ");
+    string FirstName = Console.ReadLine();  //Can probably change this?
+    Console.Write("Type the persons last name: ");
+    string LastName = Console.ReadLine();
     Console.Write("Type the persons Email: ");
     string Email = Console.ReadLine();
-    Console.WriteLine("User: " + FullName + " Email: " + Email + " has been added!");
+    Console.WriteLine("User: " + FirstName + " Email: " + Email + " has been added!");
 
     Users.Add(new User("Fullname: " + FullName, "Email: " + Email));
 
@@ -98,8 +100,7 @@ if (menuOption == "View")
     foreach(var User in Users)
     {   
         Console.WriteLine($"{User._FullName}, {User._Email} ");
-        Console.WriteLine($"{User._FullName}, {User._Email} ");
-        Console.WriteLine($"{User._FullName}, {User._Email} ");
+ 
     }
    
     Console.Write("\nType what you want to do: ");
