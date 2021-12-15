@@ -13,3 +13,18 @@ D:\Lexicon\NETFUND21\cs\Uppgift_2\Event _2\obj\Debug\net6.0\Event _2.dll
 D:\Lexicon\NETFUND21\cs\Uppgift_2\Event _2\obj\Debug\net6.0\ref\Event _2.dll
 D:\Lexicon\NETFUND21\cs\Uppgift_2\Event _2\obj\Debug\net6.0\Event _2.pdb
 D:\Lexicon\NETFUND21\cs\Uppgift_2\Event _2\obj\Debug\net6.0\Event _2.genruntimeconfig.cache
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\bin\Debug\net6.0\Event _2.exe
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\bin\Debug\net6.0\Event _2.deps.json
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\bin\Debug\net6.0\Event _2.runtimeconfig.json
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\bin\Debug\net6.0\Event _2.dll
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\bin\Debug\net6.0\ref\Event _2.dll
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\bin\Debug\net6.0\Event _2.pdb
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\obj\Debug\net6.0\Event _2.csproj.AssemblyReference.cache
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\obj\Debug\net6.0\Event _2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\obj\Debug\net6.0\Event _2.AssemblyInfoInputs.cache
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\obj\Debug\net6.0\Event _2.AssemblyInfo.cs
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\obj\Debug\net6.0\Event _2.csproj.CoreCompileInputs.cache
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\obj\Debug\net6.0\Event _2.dll
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\obj\Debug\net6.0\ref\Event _2.dll
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\obj\Debug\net6.0\Event _2.pdb
+D:\Lexicon\NETFUND21\cs\Uppgift_2\Event_2\obj\Debug\net6.0\Event _2.genruntimeconfig.cache

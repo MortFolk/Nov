@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Event__2.Models
+namespace Event_2.Models
 {
     internal class UserHandler
     {
