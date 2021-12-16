@@ -17,12 +17,23 @@ namespace Event_2.Handlers
             participantList.Add(participant);
         }
 
-        public static void RemoveUser(Participant participant)
+        public static void RemoveUser(string id)
         {
-            var index = participantList.IndexOf(participant);
-            participantList.RemoveAt(index);
+            if (!string.IsNullOrEmpty(id))
+            {
 
-            Console.WriteLine($"User {participant.FullName} removed from list");
+                var _id = Guid.Parse(id);
+                participantList = participantList.Where(x => x.Id != _id).ToList();
+
+
+            }
+
+         
+        }
+
+        public static IEnumerable<Participant> GetParticipants()
+        {
+            return participantList;
         }
 
 

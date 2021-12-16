@@ -36,9 +36,9 @@ namespace Event__2.Handlers
         public static void MenuOption_Create()
         {
 
-            Console.WriteLine("------------------");
-            Console.WriteLine("---  Add user  ---");
-            Console.WriteLine("------------------");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("---   Add user    ---");
+            Console.WriteLine("---------------------");
             Console.WriteLine("");
 
             var participant = new Participant();
@@ -51,10 +51,16 @@ namespace Event__2.Handlers
            
             Console.Write("Email: ");
             participant.Email = Console.ReadLine() ?? "";
+            participant.Id = Guid.NewGuid();
 
             ListHandler.AddUser(participant);
-            Console.WriteLine($"\nUser {participant.FullName} was added to the list");
+            Console.WriteLine($"\nUser {participant.FullName} with the id {participant.Id} was added to the list");
+            Task.Delay(0500).Wait();
+            Console.Write("Press any key to continue");
+            Console.ReadKey();
+            Console.Clear();
         }
+
 
         public static void MenuOption_Remove()
         {
@@ -62,12 +68,33 @@ namespace Event__2.Handlers
             Console.WriteLine("---  Remove user  ---");
             Console.WriteLine("---------------------");
             Console.WriteLine("");
+            Console.Write("Enter the ID of the User to delete: ");
+            
+            var id = Console.ReadLine();
 
+      
+            
+            ListHandler.RemoveUser(id);
 
+            Console.WriteLine($"User wih id {id} was removed from the list");
+
+            Console.Write("Press any key to continue");
+            Console.ReadKey();
+            Console.Clear();
         }
         public static void MenuOption_ShowUser()
         {
+            Console.WriteLine("---------------------");
+            Console.WriteLine("---     Users     ---");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("");
 
+            foreach(var participant in ListHandler.GetParticipants())
+                Console.WriteLine($"ID: {participant.Id} Name: {participant.FullName} Email: {participant.Email}");
+            
+            Console.Write("Press any key to continue");
+            Console.ReadKey();
+            Console.Clear();
         }
         public static void MenuOption_Save()
         {

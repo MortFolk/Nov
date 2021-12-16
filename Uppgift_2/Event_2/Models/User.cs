@@ -12,11 +12,12 @@ namespace Event_2.Models
         {
         }
 
-        public Participant(string firstName, string lastName, string email)
+        public Participant(string firstName, string lastName, string email, Guid id)
          {
              FirstName = firstName;
              LastName = lastName;
              Email = email;
+             Id = id;
          }
 
 

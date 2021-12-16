@@ -3,34 +3,36 @@
 using Event_2.Models;
 using Event__2.Handlers;
 
-Console.WriteLine("Hello world");
 
-MenuHandler.ShowMenu();
-
-int menuOption = -1;
+int Option = -1;
 
 do
 {
-    menuOption = MenuHandler.ShowMenu();
-    switch (menuOption)
+    Option = MenuHandler.ShowMenu();
+    Console.Clear();
+
+    switch (Option)
     {
-        case 1:MenuHandler.MenuOption_Create();
-            Task.Delay(2000).Wait();
+        case 1: MenuHandler.MenuOption_Create();
+            Task.Delay(1500).Wait();
             break;
 
-        case 2:MenuHandler.MenuOption_Remove();
+        case 2: MenuHandler.MenuOption_Remove();
+            Task.Delay(1500).Wait();
             break;
 
-        case 3:
+        case 3: MenuHandler.MenuOption_ShowUser();
+            Task.Delay(1500).Wait();
             break;
 
-        case 4:
+        case 4: FileHandler.SaveToFile();
+            Task.Delay(1500).Wait();
             break;
         default:
             break;
     }
 }
-while (menuOption != 0);
+while (Option != 0);
 
 
 
