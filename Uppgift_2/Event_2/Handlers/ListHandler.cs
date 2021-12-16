@@ -27,8 +27,7 @@ namespace Event_2.Handlers
 
 
             }
-
-         
+        
         }
 
         public static IEnumerable<Participant> GetParticipants()

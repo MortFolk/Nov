@@ -10,9 +10,20 @@ namespace Event__2.Handlers
     internal class FileHandler
     {
 
+        private static string _filepath = @"c:\";
+
+        public static void SerFilePath(string filepath)
+        {
+            _filepath = filepath.Trim();
+        }
+
+
+
+
         public static void SaveToFile()
         {
-            using (StreamWriter sw = new StreamWriter(@"D:\Lexicon\List_test\test.csv"))
+
+            using (StreamWriter sw = new StreamWriter(@$"{_filepath}\test.csv"))
             {
 
                 var list = ListHandler.GetParticipants();

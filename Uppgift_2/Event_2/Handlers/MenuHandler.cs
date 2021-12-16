@@ -25,9 +25,10 @@ namespace Event__2.Handlers
             Console.WriteLine("2. Remove user");
             Console.WriteLine("3. Show users");
             Console.WriteLine("4. Save to file");
+            Console.WriteLine("5. Settings");
             Console.WriteLine("0. Quit");
             Console.WriteLine("");
-            Console.WriteLine("What do you want to do? 0-4");
+            Console.WriteLine("What do you want to do? 0-5");
 
             return int.Parse(Console.ReadLine() ?? "-1");
 
@@ -96,10 +97,19 @@ namespace Event__2.Handlers
             Console.ReadKey();
             Console.Clear();
         }
-        public static void MenuOption_Save()
+        public static void MenuOption_Settings()
         {
+            Console.WriteLine("---------------------");
+            Console.WriteLine("---    Setting   ---");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("");
 
+            Console.WriteLine("Enter your preferred file path (eg. c:\folder)");
+            FileHandler.SerFilePath(Console.ReadLine());
+
+            Console.Write("Press any key to continue");
+            Console.ReadKey();
+            Console.Clear();
         }
-
     }
 }

@@ -28,6 +28,10 @@ do
         case 4: FileHandler.SaveToFile();
             Task.Delay(1500).Wait();
             break;
+        case 5:
+            MenuHandler.MenuOption_Settings();
+            Task.Delay(1500).Wait();
+            break;
         default:
             break;
     }
